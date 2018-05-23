@@ -1,0 +1,149 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Infodigital\Instalações\ProVendas2004\package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+ProVendas2004.CHI=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINXP\system32\SHLock.ocx=
+C:\WINXP\system32\SPR32X60.ocx=
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\msado26.tlb=
+C:\WINXP\system32\actskin4.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINXP\system32\mscomctl.ocx=
+C:\WINXP\system32\richtx32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\Infodigital\Sistemas\ProVendas2004\ProVendas2004.skn=
+C:\Infodigital\Sistemas\ProVendas2004\_licenca.dll=
+C:\Infodigital\Sistemas\ProVendas2004\logo.jpg=
+C:\Infodigital\Sistemas\ProVendas2004\provendas2004.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Infodigital\Sistemas\ProVendas2004\ProVendas2004.exe=Yes
+C:\WINXP\system32\MSVBVM60.DLL=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINXP\system32\actskin4.ocx=Yes
+C:\WINXP\system32\MSDBRPTR.DLL=Yes
+C:\WINXP\system32\MSSTDFMT.DLL=Yes
+C:\WINXP\system32\MSBIND.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\msado26.tlb=Yes
+C:\Arquivos de programas\Arquivos comuns\designer\msderun.dll=Yes
+C:\WINXP\system32\richtx32.ocx=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINXP\system32\mscomctl.ocx=Yes
+C:\WINXP\system32\MSADODC.OCX=Yes
+C:\WINXP\system32\SPR32X60.ocx=Yes
+C:\WINXP\system32\SHLock.ocx=Yes
+C:\Infodigital\Sistemas\ProVendas2004\ProVendas2004.chm=Yes
+C:\WINXP\system32\hhctrl.ocx=Yes
+C:\WINXP\system32\itss.dll=Yes
+C:\WINXP\system32\itircl.dll=Yes
+C:\WINXP\hh.exe=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINXP\system32\VB6STKIT.DLL=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Infodigital\Sistemas\ProVendas2004\ProVendas2004.skn=Yes
+C:\Infodigital\Sistemas\ProVendas2004\_licenca.dll=Yes
+C:\Infodigital\Sistemas\ProVendas2004\logo.jpg=Yes
+C:\Infodigital\Sistemas\ProVendas2004\provendas2004.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Infodigital\Sistemas\ProVendas2004\ProVendas2004.exe=$(AppPath)
+C:\WINXP\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINXP\system32\actskin4.ocx=$(WinSysPath)
+C:\WINXP\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINXP\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINXP\system32\MSBIND.DLL=$(WinSysPath)
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\msado26.tlb=$(WinSysPath)
+C:\Arquivos de programas\Arquivos comuns\designer\msderun.dll=$(CommonFiles)\designer
+C:\WINXP\system32\richtx32.ocx=$(WinSysPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINXP\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINXP\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINXP\system32\SPR32X60.ocx=$(WinSysPath)
+C:\WINXP\system32\SHLock.ocx=$(WinSysPath)
+C:\Infodigital\Sistemas\ProVendas2004\ProVendas2004.chm=$(AppPath)
+C:\WINXP\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINXP\system32\itss.dll=$(WinSysPath)
+C:\WINXP\system32\itircl.dll=$(WinSysPath)
+C:\WINXP\hh.exe=$(WinSysPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINXP\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Infodigital\Sistemas\ProVendas2004\ProVendas2004.skn=$(AppPath)
+C:\Infodigital\Sistemas\ProVendas2004\_licenca.dll=$(AppPath)
+C:\Infodigital\Sistemas\ProVendas2004\logo.jpg=$(AppPath)
+C:\Infodigital\Sistemas\ProVendas2004\provendas2004.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Infodigital\Sistemas\ProVendas2004\ProVendas2004.exe=No
+C:\Infodigital\Sistemas\ProVendas2004\ProVendas2004.chm=No
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Infodigital\Sistemas\ProVendas2004\ProVendas2004.skn=No
+C:\Infodigital\Sistemas\ProVendas2004\_licenca.dll=No
+C:\Infodigital\Sistemas\ProVendas2004\logo.jpg=No
+C:\Infodigital\Sistemas\ProVendas2004\provendas2004.mdb=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Pró Vendas 2004
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Pró Vendas 2004
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Pró Vendas 2004]
+Icon1=ProVendas2004.exe
+Title1=Pró Vendas 2004
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Infodigital\Instalações\ProVendas2004\package
+ProjectFolder=C:\Infodigital\Sistemas\ProVendas2004
+ServerSideCab=
+File1=C:\Infodigital\Instalações\ProVendas2004\package\setup.exe
+File2=C:\Infodigital\Instalações\ProVendas2004\package\Setup.Lst
+File3=C:\Infodigital\Instalações\ProVendas2004\package\ProVendas2004.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
